@@ -1,2 +1,4 @@
 selenium==4.13.0
 beautifulsoup4==4.11.1
+openai==0.28.1
+metaphor-python==0.1.16
