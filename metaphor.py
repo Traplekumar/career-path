@@ -6,7 +6,7 @@ from metaphor_python import Metaphor
 
 with open('constants.json') as file:
     data = json.load(file)
-    # METAPHOR_KEY = data["METAPHOR_KEY"]
+    METAPHOR_KEY = data["METAPHOR_KEY"]
     WEBPAGE_TOKEN_LIMIT = data["WEBPAGE_TOKEN_LIMIT"]
     WEBPAGE_INIT_LINE_SKIP = data["WEBPAGE_INIT_LINE_SKIP"]
 

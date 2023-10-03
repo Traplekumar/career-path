@@ -1,9 +1,9 @@
 import json
 import openai
 
-# with open('constants.json') as file:
-#     data = json.load(file)
-#     OPENAI_KEY = data["OPENAI_KEY"]
+with open('constants.json') as file:
+    data = json.load(file)
+    OPENAI_KEY = data["OPENAI_KEY"]
     
 
 def createPrompt(abt, exp, edu, certi, text, career):
